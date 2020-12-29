@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+
+\begin{document}
+
+\title{OS9 Fatemeh Oliayee Rad}
+
+\maketitle
+
+
+\section{Text}
+Make beautiful your inside esprit, that be same your inside and outside personality
+
+\section{picture}
+\begin{center}
+ \includegraphics[width=11cm]{god.jpg}  \\
+  \caption{where there is peace god is}   
+\end{center}
+  
+
+\begin{table}[h]
+\section{table}
+  \begin{center}
+    \caption{Table of numbers}
+    \begin{tabular}{|c|c|c|}
+    \hline
+      \hline
+     1 & 2 &3 \\
+     \hline
+     4 & 5 & 6\\
+      \hline
+     7 &8 & 9\\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\section{math formula}
+\begin{equation}\label{eqn:einstein}
+ax^2 + bx + c = 0
+% \eqref{eqn:einstein}
+
+\section{code}
+\begin{latin}
+\begin{lstlisting}[language=C++]
+#include<iostream>
+#include<conio.h>
+using namespace std;
+ 
+main()
+{
+int n,i,count=0;
+cout<<"please enter a number:";
+cin>>n;
+for(i=1;i<=n/2;i++)
+{
+if(n%i==0)
+count++;
+}
+if(count>1)
+cout<<"is not a prime number.";
+else
+cout<<"is a prime number.";
+return 0;
+}
+\end{lstlisting}
+\end{latin}
+
+\end{document}
